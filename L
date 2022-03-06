@@ -1,0 +1,7 @@
+a= input ("ad gir") # a=kullanıcıdan bilgileri aldım  
+b= input ("soyad gir") # b= kulanıcıdan bilgileri aldım
+c = input (" telefon gir")# c= kulanıcıdan bilgileri aldım
+d= a,b,c #  bilgileri tek bir kod üzerinden birleştirm  liste tek hale geldi 
+bilgiler = [] # boş bir küme içerisine atayarak adlım
+bilgiler.append(d)#değişkenlerin girdiği liste 
+print(bilgiler) #listeyi görebilmek için listeyi yazdırdım
