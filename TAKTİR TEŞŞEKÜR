@@ -1,0 +1,7 @@
+# uygulama taktirmi teşşekkür mü veya düzmü
+if sayı>= 85:
+    print ("taktir belgesi aldınız ")
+elif ortalama >=70:
+    print("teşşekkür belgesi aldınız")
+else:
+    print:("hiçbir belge alamadınız")
