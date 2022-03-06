@@ -1,0 +1,9 @@
+cinsiyet =input ("bir harf giriniz E/K:")
+
+if cinsiyet =="E": or cinsiyet =="e":
+print ("Erkek")
+elif cinsiyet =="K" or cinsiyet=="k":# 2. veye daha fazla şart olursa elif kullanılır
+    print("Kadın") 
+else:
+    print("Lütfen E veya K giriniz !")
+print ("Hoşçakalın...")   
