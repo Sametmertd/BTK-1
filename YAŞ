@@ -1,0 +1,14 @@
+#KARŞILAŞTIRMA OPERÖTERLERİ
+"""
+< : Küçüktür
+>: Büyüktür
+<=: Küçük eşit
+>= :Büyük eşit
+==: Eşşittir
+!=: Eşit değildir
+"""
+a=int (input("yaş gir"))
+if a<18:
+    print("Girebilirsiniz...")
+    else:
+        print("Giremezsin...")
