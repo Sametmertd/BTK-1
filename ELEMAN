@@ -1,0 +1,21 @@
+liste= []#boş bir liste tanımlar 
+liste["elma","armut",20]#artık listenin elemanlerı değişti!
+gunler=["pazartesi","salı","çarşamba"]
+sayı=[12,25,26,36,85,0]
+isimler =["ali","ahmet","veli","sedat"]
+print (gunler)
+print("0.indeksdeki eleman:",gunler[0]) # ctrl+d çoğaltır, ctrl y satırı siler
+print(gunler[1])
+print (gunler[2])
+gunler.append ("perşembe") #append : yeni eleman ekler 
+print(gunler)
+print ("Eleman sayısı :",len (gunler))#len listenin eleman sayısı verir 
+gunler.pop(0) #hiçbirşey yazılmadığından listenin son elemanını çıkarır
+print(gunler)
+print (sayılar)
+sayilar.sort()
+print(sayilar)
+sayikar.sort(reverse=TRUE)
+print(sayılar)
+isimler.sort()
+print (isimler)
