@@ -1,0 +1,14 @@
+#kullanıcıdan 5 tane sayı isteyerek en büyük sayıyı listeye atarak bulunuz!
+sayi1=input("1. sayıyı giriniz:")
+sayi2=input("2. sayıyı girinz:")
+sayi3=input("3. sayıyı girinz:")
+sayi4=input("4. sayıyı girinz:")
+sayi5=input("5. sayıyı girinz:")
+sayılar=[]
+sayılar.append (sayi1)
+sayılar.append(sayi2)
+sayılar.append(sayi3)
+sayılar.append(sayi4)
+sayılar.append(sayi5)
+sayilar.sort()
+print("girdiğiniz sayılardan en büyük:",sayilar{4])
