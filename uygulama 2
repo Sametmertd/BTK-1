@@ -1,0 +1,27 @@
+#kulanıcıadı ve şifre alınız .. kulalnıcı adı olarak "admin" şifre olarak
+#123456girilince "sisteme giriş yaptınız"
+#if yazsın. is None:
+    #anlış girildikçe " kulalnıcıcı adı veya şifere  hatalı " yazıp
+    #tekrar kulalnıcıcı adı ve şifre sorsun!
+   sys_unsername="samet mete"
+   sys _şifren="12345"
+
+
+
+#nput ("kullanıcı adını giriniz")
+#şifre=input("şifre 'yi giriniz:")
+#if (kullannici_adi==
+    #sys_unsername )adn (şifre !=sys_password):
+   # print ("şifre yanlış")
+
+  #  elif (kullanıcı _adi!=)
+
+
+
+  kullaniciadı=input("Kullanıcı adınızı:")
+  şifre =input("Parolanız:")
+  if kullanıcıadı == "admin" and sifre=="123456":
+      break
+  else:
+      print ("Kullanıcı adı veya Parola hatalı")
+print ("sisteme başarlıyla giriş yaptınız..")
