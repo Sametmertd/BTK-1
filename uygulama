@@ -1,0 +1,9 @@
+#kulalnıcı  sürekli ismi sorulsun   Q sorulunca çıksın
+#while True:
+ #   isim=input("isimniz")
+#
+ #   if isim == "q":
+  #      break
+isim=""
+while not isim=="q":
+    isim=input("isminiz:")
