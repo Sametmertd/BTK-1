@@ -1,0 +1,6 @@
+#klasör oluştur ama bu klasör varsa böyle bir klasör varsa hata mesajı versin
+import os
+try:
+os.mkdir("meyve")#klasor oluştur
+except FileExistsError:
+     print("aynı anda klasor va!")
