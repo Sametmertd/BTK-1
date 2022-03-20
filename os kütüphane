@@ -1,0 +1,4 @@
+import os
+print(os.getcwd())#pragramın bulunduğu klasorun yolunu verir
+os.mkdir("elma")#klasor oluştur
+os.rmdir("elma")
