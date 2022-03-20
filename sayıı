@@ -1,0 +1,11 @@
+#tutuğum sayı=3
+t=10
+while True:
+    a=int(input("Bir sayı giriniz:"))
+    if a>t:
+        print("Bilemedin sayıyı küçült")
+    elif a<t:
+        print("Bilemedin sayıyı küçült")
+    else:
+        print("Aferin doğru bildin")
+        break
