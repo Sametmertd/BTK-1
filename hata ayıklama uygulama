@@ -1,0 +1,14 @@
+#kullanıcaıdan sayı girmesini isteyen,
+#sayı giremdiğinde tekrar tekara sayı girmesini isteyen,
+# sayı girdiğinde de ekrana sayının karesini yazdıran program
+while:
+     True: print("Bir sayi1 giriniz")
+
+try:
+    sayi1=int(input("Bir sayı giriniz"))
+
+    print ("Karesi:",sayi1)
+except ValueError:
+    print("Lütfen sayı gir! Harf girme")
+except:
+    print("Genel hata oluştu")
