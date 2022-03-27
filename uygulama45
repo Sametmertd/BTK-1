@@ -1,0 +1,15 @@
+#kendisine gönderilen kulanıcı adı ve şifre kontrol ederek
+#sonucuda True yada Folse göndreren fonkisyon phyton kodu
+#kulanıcıadı: admin,şifre123456 olmalı
+def kontrol(kullanici,şifre):
+    if kullanici=="samet" and şifre=="450450":
+        return 1
+    else:
+        return 0
+kullanici=input("kullanıcı adınız")
+şifre=input("şifreniz")
+sonuc=kontrol(kullanici,şifre)
+if sonuc==True:
+    print("dogru giriş")
+else:
+    print("kullanıcı adı veya şifre hatalı")
