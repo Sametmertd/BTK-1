@@ -1,0 +1,9 @@
+def selamla ():
+    print("Hoşgeldiniz..")
+    print("Sisteme baiarıyla giriş yaptınız")
+
+print("Bugün fonksiyon çğreniyorum")
+selamla()
+selamla()
+selamla()
+selamla()
