@@ -1,0 +1,4 @@
+def selamla(ad):
+    print("hoşgeldin",ad)
+isim=input("Adınız:")
+selamla(isim)#Adınız bruda argüma oluyor
