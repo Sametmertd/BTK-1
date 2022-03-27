@@ -1,0 +1,11 @@
+#dikdörtgenin alanını ve çevresini hesaplayan 2 ayrı
+#fanksiyon yazanınız.kulallanıcıdan aldığınız değere göre
+#alanı ve çevreyi ekrana yazdırınız.
+def çevre(x,y):
+    return (x+y)
+def alan(x,y):
+    return (x*y)
+a=int(input("uzun kenar"))
+b=int(input("kısa kenar"))
+print("dikdörtgenin çevresi:",çevre(a,b))
+print("dikdörtgenin alan:",alan(a,b))
