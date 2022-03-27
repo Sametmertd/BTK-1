@@ -1,0 +1,16 @@
+#kendisine gönderilen kullanıcı adı ve şifreyi kontrol ederek
+#sunucuda true yada false gonderen fonksiyonu python kodu
+#kullanıcı adı: admin, şifre:123456 olmalı
+
+def kontrol(kullanici,şifre):
+    if kullanici=="admin" and şifre=="123456":
+        return 1
+    else:
+        return 0
+kullanici=input("kullanıcı adınız")
+şifre=input("şifreniz")
+sonuc=kontrol(kullanici,şifre)
+if sonuc==True:
+    print("dogru giriş")
+else:
+    print("kullanıcı adı veya şifre hatalı")
